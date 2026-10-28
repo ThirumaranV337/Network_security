@@ -40,22 +40,11 @@ DATA_INGESTION_INGESTED_DIR: str = "ingested"
 # The fraction of rows held aside for testing; the rest are used for training.
 DATA_INGESTION_TRAIN_TEST_SPLIT_RATION: float = 0.2
 
+"""Data  Validation related constant start with DATA_VALIDATION VAR NAME
 """
-Data Validation related constant start with DATA_VALIDATION VAR NAME
-"""
-# Folder names reserved for validation results and its data-drift report.
-DATA_VALIDATION_DIR_NAME: str = "data_validation"
-DATA_VALIDATION_VALID_DIR: str = "validated"
-DATA_VALIDATION_INVALID_DIR: str = "invalid"
-DATA_VALIDATION_DRIFT_REPORT_DIR: str = "drift_report"
-DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "report.yaml"
-# File name reserved for preprocessing settings in a later pipeline stage.
-PREPROCESSING_OBJECT_FILE_NAME = "preprocessing.pkl"
+DATA_VALIDATION_DIR_NAME:str ="data_validation"
+DATA_VALIDATION_VALID_DIR:str ="validated"
+DATA_VALIDATION_INVALID_DIR:str ="invalid"
+DATA_VALIDATION_DRIFT_REPORT_DIR: str="drift_report"
+DATA_VALIDATION_DRIFT_REPORT_FILE_NAME:str="report.yaml"
 
-"""
-Data Transformation related constant start with DATA_TRANSFORMATION VAR NAME
-"""
-# Folder names reserved for transformed data and the saved transformation object.
-DATA_TRANSFORMATION_DIR_NAME: str = "data_transformation"
-DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR: str = "transformed"
-DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str = "transformed_object"
